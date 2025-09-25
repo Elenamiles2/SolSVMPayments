@@ -8,7 +8,7 @@
 
 use {
     solana_sdk::{
-        instruction::Instruction as Solanalnstruction,
+        instruction::Instruction as SolanaInstruction,
         pubkey::Pubkey,
         system_instruction,
         transaction::{
