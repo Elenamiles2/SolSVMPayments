@@ -20,3 +20,5 @@ transfers, saving the overhead of posting transactions to the chain for last.
 Below is a diagram of the new SVM API.
 
 ![API](./doc/svm_api.jpg)
+
+![SolSVM Diagram](./doc/solsvm.webp)

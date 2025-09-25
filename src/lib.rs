@@ -17,7 +17,7 @@
 //!
 //! Note: This opt-in solution is for demonstration purposes only.
 //!
-//! ```text
+//! ```blabla
 //! 
 //! SolSVM "VM"
 //!
