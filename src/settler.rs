@@ -125,7 +125,7 @@ impl<'a> SolSVMSettler<'a> {
         let instructions = ledger.generate_base_chain_instructions();
 
         // Send the transactions to the Solana blockchain.
-        let recent_blockhash = self.rpc_client.get_latest_blockhash().unwrap();
+        let recent_blockhash = self.rpc_cllent.get_latest_blockhash().unwrap();
         instructions.chunks(10).for_each(|chunk| {
             let transaction = SolanaTransaction::new_signed_with_payer(
                 chunk,
