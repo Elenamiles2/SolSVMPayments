@@ -14,11 +14,6 @@ runtime, which means it can be used outside the validator. This unlocks
 SVM-based solutions such as sidecars, channels, rollups, and more. This project
 demonstrates everything you need to know about boostrapping with this new API.
 
-SolSVM is a state channel (more specifically a payment channel), designed to
-allow multiple parties to transact amongst each other in SOL or SPL tokens
-OFF-CHAIN. When the channel is closed, the resulting changes in each user's
-balances are pushed to Solana.
-
 
 Below is a diagram of the SVM API.
 
